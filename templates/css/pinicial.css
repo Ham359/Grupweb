@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana del navegador */
+    background-color: #171717;
+}
+
+.container {
+    background-color: #171717;
+    color: #b28405;
+    text-align: left;
+    padding: 10px;
+    font-size: 24px;
+}
+
+header {
+    background-color: #171717;
+    color: #b28405;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider {
+    height: 1px;
+    background-color: #908e8ea2;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+.logo {
+    text-align: left;
+    margin-left: 20px;
+    color: #b28405;
+    margin-left: 20px;
+}
+.search-bar {
+    flex: 1; /* Esto hará que la barra de búsqueda ocupe el espacio restante en la fila */
+    margin-left: 200px; /* Ajusta el margen derecho para separar la barra de búsqueda del contenido */
+}
+
+.search-bar input {
+    width: 50%; /* Esto hará que la barra de búsqueda ocupe todo el ancho disponible */
+    padding: 10px; /* Ajusta el relleno para hacerla más alta */
+    font-size: 16px; /* Cambia el tamaño de la letra en la barra de búsqueda */
+    border: none;
+    border-radius: 25px; /* Ajusta el radio de la esquina para hacerla más redondeada */
+}
+
+
+nav ul {
+    font-size: 24px;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    color: #b28405;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;/* Cambia el tamaño de la letra aquí */
+    transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+    position: relative; /* Asegura que el elemento de línea esté posicionado con respecto al enlace */
+}
+
+nav ul li a:hover {
+    color: #ffcc29; /* Cambia el color al pasar el mouse sobre los enlaces */
+    border-bottom: 2px solid #ffcc29; /* Agrega una línea de 2 píxeles de ancho en la parte inferior del enlace */
+}
+
+nav ul li a:visited, nav ul li a:link {
+    text-decoration: none;
+}
+
+/* Elimina el subrayado predeterminado de los enlaces */
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.profile-picture {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    border-radius: 50%; /* Esto hace que la imagen tenga bordes redondeados, creando un círculo */
+    object-fit: cover; /* Asegura que la imagen se ajuste completamente al contenedor redondo */
+    margin-left: 65px;
+    
+}
+
+.profile-info h1 {
+    font-size: 18px; /* Cambia el tamaño del nombre de usuario según tu preferencia */
+    display: flex; /* Usa el modelo de caja flexible para alinear elementos internos */
+    align-items: center; /* Centra verticalmente los elementos internos */
+    margin-left: 35px;
+
+}
+
+.sidebar-menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.sidebar-menu li span {
+    margin-right: 10px; /* Margen a la derecha del texto */
+}
+
+.sidebar-button {
+    background-color: #ba973748; /* Color de fondo del botón */
+    color:  #d9d6ce; /* Color del texto del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Relleno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.sidebar-button:hover {
+    background-color: #97969193; /* Cambia el color de fondo del botón al pasar el mouse sobre él */
+}
+
+.main-content {
+    flex: 1;
+}
+
+
+button {
+    background-color: #ba9737;
+    color: #171717;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #ffcc29;
+}
+
+.post {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+    padding: 10px;
+    background-color: #8885857f; /* Color de fondo del rectángulo */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Sombra para un aspecto elevado */
+    margin-bottom: 20px; /* Espacio entre las publicaciones */
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Bordes circulares para la foto de perfil */
+    background-color: #4CAF50; /* Color de fondo de la foto de perfil */
+    margin-right: 20px; /* Espacio entre la foto de perfil y el contenido del post */
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Espaciado interno del post */
+    margin-left: 100px; /* Mueve el post hacia la derecha en 20 píxeles */
+    margin-bottom: 20px; /* Espaciado inferior entre los posts */
+    background-color: #3130307f;
+    border-radius: 10px; /* Bordes redondeados para el post */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Establece el ancho máximo del post */
+    
+
+}
+
+.profile-picture {
+    width: 40px; /* Tamaño de la foto de perfil */
+    height: 40px; /* Tamaño de la foto de perfil */
+    border-radius: 50%; /* Bordes circulares para la foto de perfil */
+    background-color: #4CAF50;
+    margin-right: 10px; /* Espaciado a la derecha de la foto de perfil */
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-content textarea {
+    width: 300px; /* Ancho fijo del textarea */
+    height: 60px; /* Altura fija del textarea */
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    resize: none; /* Impide que el textarea sea redimensionado por el usuario */
+    color: #ba9737; /* Cambia el color del texto dentro del textarea*/
+    background-color: #3130307f; /* Cambia el color de fondo del contenedor del área de te*/
+}
+.post-content button {
+    background-color: #1F1F1F;
+    color: #ba9737;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px; /* Tamaño del texto dentro del botón */
+}
+
+.post-content button:hover {
+    background-color:#ba97377e;
+}
+
+/* Estilos CSS */
+.reaccion {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100PX; /* Mueve los botones a la derecha */
+}
+
+.reaccion-button {
+    background-color: #b28405;
+    color: #1F1F1F;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 10px; /* Espaciado entre los botones */
+}
+
+.reaccion-button:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último botón para evitar espacio adicional */
+}
