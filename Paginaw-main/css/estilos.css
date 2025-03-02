@@ -1,0 +1,60 @@
+.imgine {
+    max-width:40%;
+    max-height:20% ;
+    height: auto;
+}
+
+.image {
+    max-width: 30%;
+    max-height: 30%;
+    height: auto;
+    border: 50px;
+    cursor: pointer;
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    border: 0cap;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: dashed;
+}
+
+.boton:hover {
+    background-color:blanchedalmond;
+}
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-Euy1BLgOqj8%2FTpSTAh7CZBI%2FAAAAAAAABKY%2FpRRXWIo-83g%2Fs1600%2Ffondo%252B%2525252811%25252529%252Bcopia.jpg&f=1&nofb=1&ipt=3ba45d911a16b3eeb30618ead5f12d6aa5428e49ad6b26fb8cc79a86b57732fb&ipo=images);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    margin: 0;
+    color: aliceblue;
+    margin: 5% 15% ;/* Arriba, derecha, abajo, izquierda */
+    text-align: center;
+}
+
+header{
+    background-color: aqua;
+    color: rgb(17, 125, 219);
+}
+
+header.dos-header{
+    background-color: seashell;
+    color:rgb(223, 80, 80);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px auto;
+}
+
+th,td{
+    text-align: center;
+}
